@@ -52,93 +52,158 @@ Instructor: Ophelia Wang(email: wangyumeng2018@berkeley.edu)
 \subsection{Knowledge Based}
 \subsection{Skills Based}
 
-
 \section{Instructional Methods and Assignments}
 
-\subsection{Class 1-Basic Principles-Feb. 8/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
+% Course Outline
+\textbf {\large Tentative Course Outline}:
 
-\subsection{Class 2-Chocolate-Feb. 15/Fri.}
-\subsubsection{Learn how chocolate is made}
-\subsubsection{Profile chocolate in tasting, smelling, appearance, etc}
-\subsubsection{Homework-Read Chapter 10 p. 237-248, review recipes for week 3}
+\begin{table}[h!]
+\normalsize % The size of the table text can be changed depending on content. Remove if desired.
+\begin{tabular}{ | c | c | }
+\hline
+\textbf{Week} & \textbf{Content} \\
+\hline
+Week 1 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Introduction/Course outline
+\item Safety/Sanitation
+\item Scaling/Measuring
+\item Equipment/Tools
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 2 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Learn how chocolate is made
+ \item Profile chocolate in tasting, smelling, appearance, etc.
+ \item How to work with chocolate and learn basic garnishes
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 3 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Learn  Muffin, Creaming methods
+ \item Concentration this week on Muffin/Creaming Methods
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 4 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Learn how Biscuit Method works for different applications.
+ \item Understanding of different types of pie/sweet tart dough and uses
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 5 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Stirred vs. Baked Custard and the differences
+ \item Learn the uses for these basic products in applications of other pastry and desserts
+  \item \textbf {First project due}
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 6 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Difference between dough in taste for savory vs. sweet
+ \item Handling, rolling, shaping of dough
+ \item Using the right dough for the right filling
+    \item Finishes for pies
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 7 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item \textbf {Spring week}
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 8 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Types of cookies
+    \item Mixing methods
+    \item Storing different cookie dough
 
-\subsection{Class 3-Basic Mixing Methods/Quick Breads-Feb. 22/Fri.}
-\subsubsection{Learn  Muffin, Creaming methods}
-\subsubsection{Concentration this week on Muffin/Creaming Methods}
-\subsubsection{Homework-Read p. 211-215, review recipes for week 4, work on your costing sheets.}
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
 
-\subsection{Class 4-Biscuit Method-Pie/Tart Dough-Mar. 1/Fri.}
-\subsubsection{Learn how Biscuit Method works for different applications.}
-\subsubsection{Understanding of different types of pie/sweet tart dough and uses}
-\subsubsection{Homework-Read p. 351-360, review recipes for week 5, work on costing sheets}
+Week 9 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item We will tour Whole Foods at 6th
+ \item Look and discuss all the departments and new items never seen before
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
 
-\subsection{Class 5-Custards/Creams-Mar. 8/Fri.}
-\subsubsection{Stirred vs. Baked Custard and the differences}
-\subsubsection{Learn the uses for these basic products in applications of other pastry and desserts}
-\subsubsection{Scaling/Homework-Read p. 511-519, review recipes for week, work on costing sheets}
+Week 10 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Yeast-Fresh vs. Dried, how does it work
+    \item Procedures for mixing yeast dough
+    \item Storing breads/dough for future uses
+    \item \textbf {Second Project Due}
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 11 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Learning the differences between Puff/Croissant/Danish dough
+    \item What is the best applications/uses for these item
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 12 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Pate a Choux, Puff Pastry, Fillo
+    \item Learn the different applications for each
+    \item Talk about Meringues-American, Swiss, Italian
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
 
-\subsection{Class 6-Pies/Tarts-Fillings/Assemble-Mar. 15/Fri.}
-\subsubsection{Difference between dough in taste for savory vs. sweet}
-\subsubsection{Handling, rolling, shaping of dough}
-\subsubsection{Homework-Read p. 301-307, review recipes for week 7}
+Week 13 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item \textbf {RRR week}
+ \item Review different types of ingredients used for savory baking
+    \item Look at trends for baking ideas in the industry.
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 14 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+ \vspace{1mm}
+ \item Final Week!
+ \item \textbf{Final project Due} 
+ \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+\end{tabular} 
+\end{table}
 
-\subsection{Class 7-Cookies/Brownies-Mar. 22/Fri.}
-\subsubsection{Types of cookies}
-\subsubsection{Mixing methods}
-\subsubsection{Homework-Review for test-Don’t forget to turn in your paper next week!!)}
-
-\subsection{Class 1-Basic Principles-Mar. 29/Fri.}
-\subsubsection{HOLIDAY NO CLASS}
-
-\subsection{Class 8-Mid Term-March 9/Wed. /Research Papers Due!!-Apr. 5/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Class 1-Basic Principles-Apr. 12/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Class 1-Basic Principles-Apr. 19/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Class 1-Basic Principles-Apr. 26/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Class 1-Basic Principles-May 3/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Class 1-Basic Principles-May 10/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Class 1-Basic Principles-May 17/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Class 1-Basic Principles-May 3/Fri.}
-\subsubsection{Introduction/Course outline}
-\subsubsection{Safety/Sanitation}
-\subsubsection{Scaling/Measuring}
-
-\subsection{Intern at Walmart, Shenzhen, China HQ}
-\subsubsection{Researched heavily about time series, data visualization and line regression to make sales prediction for Walmart stores based on given variables by calculating a new market index}
-\subsubsection{Provided senior analysts with sales data preliminary analysis using Excel data visualization} 
-\subsubsection{Assisted senior analysts to determine how many associates needed at the counter with the facilitation brought by the self-checkout machines by analyzing historical customer flow volume}
-
-\section{School Organizations}
-\subsection{Member of Data Science Society at Berkeley}
-\subsubsection{Participated actively in Berkeley Data Science Forum and weekly workshops ·Engaged in Kaggle competitions in teams constantly}
 \end{document}
