@@ -1,0 +1,246 @@
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in,headheight=3ex,headsep=3ex]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+
+\newcommand{\blankline}{\quad\pagebreak[2]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify Course title, instructor name, semester here %%%%%%%%
+
+\title{Introduction to Cooking}
+\author{David Lyu}
+\date{Spring 2019}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[sc]{mathpazo}
+\linespread{1.05} % Palatino needs more leading (space between lines)
+\usepackage[T1]{fontenc}
+\usepackage[mmddyyyy]{datetime}% http://ctan.org/pkg/datetime
+\usepackage{advdate}% http://ctan.org/pkg/advdate
+\newdateformat{syldate}{\twodigit{\THEMONTH}/\twodigit{\THEDAY}}
+\newsavebox{\MONDAY}\savebox{\MONDAY}{Mon}% Mon
+\newcommand{\week}[1]{%
+%  \cleardate{mydate}% Clear date
+% \newdate{mydate}{\the\day}{\the\month}{\the\year}% Store date
+  \paragraph*{\kern-2ex\quad #1, \syldate{\today} - \AdvanceDate[4]\syldate{\today}:}% Set heading  \quad #1
+%  \setbox1=\hbox{\shortdayofweekname{\getdateday{mydate}}{\getdatemonth{mydate}}{\getdateyear{mydate}}}%
+  \ifdim\wd1=\wd\MONDAY
+    \AdvanceDate[7]
+  \else
+    \AdvanceDate[7]
+  \fi%
+}
+\usepackage{setspace}
+\usepackage{multicol}
+%\usepackage{indentfirst}
+\usepackage{fancyhdr,lastpage}
+\usepackage{url}
+\pagestyle{fancy}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{layout}
+
+\lhead{}
+\chead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify header here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rhead{\footnotesize Introduction to Cooking DeCal Sp' 19}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\usepackage{array, xcolor}
+\usepackage{color,hyperref}
+\definecolor{clemsonorange}{HTML}{EA6A20}
+\hypersetup{colorlinks,breaklinks,linkcolor=clemsonorange,urlcolor=clemsonorange,anchorcolor=clemsonorange,citecolor=black}
+
+\begin{document}
+
+\maketitle
+
+\blankline
+
+\begin{tabular*}{.93\textwidth}{@{\extracolsep{\fill}}lr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify information %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+E-mail: dlv@berkeley.edu %& Web: \href{www4.ncsu.edu/~username}{\tt\bf www4.ncsu.edu/~username}  \\
+\\
+
+ Office Hours: M 5-6pm  &  Class Hours: Tue 5:00-6:30pm \\
+
+Class Room: Morgan Teaching Kitchen \\
+& \\
+\hline
+\end{tabular*}
+
+\vspace{5 mm}
+
+% First Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Course Description}
+
+This class is for all of you who have little or no cooking skills and want to learn how to cook delicious meals without setting yourself on fire. The class focuses on using proper cooking techniques and the usage of different ingredients in various cuisines (nothing extremely fancy or complicated). 
+
+\bigskip
+
+\noindent You need to pre-register for this DeCal, starting from Janurary 7th, the beginning of the class adjustment period. This is because we will start instruction on the second week of classes and you wouldn't want to miss the participation credit.
+
+\bigskip 
+
+\noindent \textbf{Warning:} this class in NOT vegan friendly. We will be going through cooking meat. If you are not comfortable with the material, please do not take this class. 
+
+% Second Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Required Materials}
+
+
+Your brain and your hands. Kitchenware and ingredients will be provided: you do not need to purchase these on your own. You might want to bring take-out boxes for your roommate. \textit{Note}: You also need to pay for the ingredients: information about the material fee will be announced soon. 
+
+
+% Third Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Course Structure}
+
+\subsection*{Class Structure}
+
+We will meet once for approximately 1.5 hours each week on Tuesday night (class starts on Berkeley-time). For the first 20 minutes, we will have a mini-lecture, going through ingredients and your cooking task for this week. For the next one hour, you will have the hands on cooking practice with your cooking partner. You are more than welcomed to ask the instructors and class assistants any cooking-related questions anytime during the class. 
+
+\subsection*{Attendence}
+
+Attendance count towards 50\% of your final grade. You have to attend at least 10 classes to have the full participation credit based on your attendance (each attendance counts as 5\%). If you attend additional classes, participation credits will serve as your resurrection credits for the midterm and the final. (More details in the grading policy section) 
+
+\subsection*{Midterm and Final Exam}
+
+\textbf{Midterm}: Scheduled on the 7th week of class. Individual assessment. Format would be cooking a dish using provided ingredients (instructions are given). 
+
+\bigskip
+
+\noindent \textbf{Final}: Scheduled on the 15th week of class. Group assessment; collaborate with your partner. Format would be creating a dish using provided ingredients. No instructions are given: use your imagination.
+
+\subsection*{Grading Policy}
+
+50\% of the final grade will be based on participation (class attendance). The \textbf{midterm} counts as 20\%: your instructor will evaluate your work based on your ability to follow instructions, using proper cooking techniques and the proper usage of different ingredients. The \textbf{final} counts as 30\%: your instructor will evaluate your group work based on the final product. (20\%) You will also have a say in your final grade by tasting your dish and write a final self-evaluation. (10\%)
+Additional attendance in addition to 10 classes required will count as 5\% each. This means you can pass this class only by attending all 11 classes (60\%*) and writing the final self-evaluation (10\%). Yeah! (*We will  award participation credits for everyone during the week of spring break. So we technically only have 11 classes in total, plus the midterm and the final.)
+
+% Course Schedule %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Schedule and weekly learning goals}
+
+The schedule is tentative and subject to change. 
+
+% Set first date of the semester (for some reason this is a week before what comes up, but that's easy to get around)
+\SetDate[22/01/2019]
+\week{Week 02} Carb!
+\begin{itemize}
+\item Understanding various types of carbs
+\item Rice/Pasta Cooking techniques
+\item Dish 1: Risotto
+\item Dish 2: Simple dinner: for-yourself pasta 
+\end{itemize}
+
+\week{Week 03} Vegetables
+\begin{itemize}
+\item Mastering various cooking techniques with different vegetables
+\item Dish 1: Stirred-Fry Spinach with garlic 
+\item Dish 2: Eggplants 
+\item Dish 3 (optional): Caprese Salad
+\end{itemize}
+
+\week{Week 04} Sunday Brunch 
+\begin{itemize}
+\item Egg cooking techniques 
+\item Dish 1: Scrambled eggs 
+\item Dish 2: Sunny Side Up egg 
+\item Dish 3 (optional): Tamagoyaki (Japanese Omelette)
+\end{itemize}
+
+\week{Week 05} White meat
+\begin{itemize}
+\item Cooking techniques for white meat
+\item Choice from following two dishes:
+\item Dish 1: Kung Pao Chicken 
+\item Dish 2: French Lemon Chicken
+\end{itemize}
+
+\week{Week 06} Red meat
+\begin{itemize}
+\item Cooking techniques for red meat
+\item Choice from following two dishes:
+\item Dish 1: Steak
+\item Dish 2: Mongolian Beef 
+\end{itemize}
+
+\week{Week 07}  \textbf{Midterm}
+
+\week{Week 08} Seafood 
+\begin{itemize}
+\item Cooking techniques for seafood 
+\item Dish 1: shrimp scampi 
+\item Dish 2 (optional): scallop 
+\end{itemize}
+
+\week{Week 09} Sauces
+\begin{itemize}
+\item Understand how sauces interplay with food
+\item Task: creating your own dish: the most saucy lamb-chop
+\end{itemize}
+
+\week{Week 10} \textbf{Spring Break :)}
+
+\week{Week 11} Breakfast
+\begin{itemize}
+\item Learn the skills: cooking breakfast for yourself
+\item Dish 1: avocado toast
+\item Dish 2: French toast
+\end{itemize}
+
+\week{Week 12} Carb, revisited
+\begin{itemize}
+\item Choice from the following three dishes: 
+\item Dish 1: Spaghetti with meatballs
+\item Dish 2: Yangzhou fried rice
+\item Dish 2: Risotto (seafood)
+\end{itemize}
+
+\week{Week 13} Techniques training 
+\begin{itemize}
+\item Further training on cooking techniques 
+\item Dish 1: Shrimp Tempura (how to fry food)
+\item Dish 2: Xiaolongbao (how to steam food)
+\end{itemize}
+
+\week{Week 14} Fruit, Herbs and Desserts 
+\begin{itemize}
+\item Learn different types and tastes of herbs
+\item Dish 1: your own Mocktail with herbs
+\item Dish 2: Parfait 
+\end{itemize}
+
+\week{Week 15} \textbf{Final} and goodbye!
+
+\end{document}
+
+
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
