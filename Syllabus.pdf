@@ -1,0 +1,322 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage{geometry}
+\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{fancyhdr, lastpage, bbding, pmboxdraw}
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{darkblue}{rgb}{0,0,.6}
+\definecolor{darkred}{rgb}{.7,0,0}
+\definecolor{darkgreen}{rgb}{0,.6,0}
+\definecolor{red}{rgb}{.98,0,0}
+\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=darkblue,citecolor=darkblue,linkcolor=darkred,bookmarksnumbered,plainpages=false]{hyperref}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\pagestyle{fancyplain}
+\fancyhf{}
+\lhead{ \fancyplain{}{Course Name} }
+%\chead{ \fancyplain{}{} }
+\rhead{ \fancyplain{}{\today} }
+%\rfoot{\fancyplain{}{page \thepage\ of \pageref{LastPage}}}
+\fancyfoot[RO, LE] {page \thepage\ of \pageref{LastPage} }
+\thispagestyle{plain}
+
+%%%%%%%%%%%% LISTING %%%
+\usepackage{listings}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\usepackage{verbatim} % used to display code
+\usepackage{fancyvrb}
+\usepackage{acronym}
+\usepackage{amsthm}
+\VerbatimFootnotes % Required, otherwise verbatim does not work in footnotes!
+
+
+
+\definecolor{OliveGreen}{cmyk}{0.64,0,0.95,0.40}
+\definecolor{CadetBlue}{cmyk}{0.62,0.57,0.23,0}
+\definecolor{lightlightgray}{gray}{0.93}
+
+
+
+\lstset{
+%language=bash,                          % Code langugage
+basicstyle=\ttfamily,                   % Code font, Examples: \footnotesize, \ttfamily
+keywordstyle=\color{OliveGreen},        % Keywords font ('*' = uppercase)
+commentstyle=\color{gray},              % Comments font
+numbers=left,                           % Line nums position
+numberstyle=\tiny,                      % Line-numbers fonts
+stepnumber=1,                           % Step between two line-numbers
+numbersep=5pt,                          % How far are line-numbers from code
+backgroundcolor=\color{lightlightgray}, % Choose background color
+frame=none,                             % A frame around the code
+tabsize=2,                              % Default tab size
+captionpos=t,                           % Caption-position = bottom
+breaklines=true,                        % Automatic line breaking?
+breakatwhitespace=false,                % Automatic breaks only at whitespace?
+showspaces=false,                       % Dont make spaces visible
+showtabs=false,                         % Dont make tabls visible
+columns=flexible,                       % Column format
+morekeywords={__global__, __device__},  % CUDA specific keywords
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+{\Large \textsc{Introduction to Baking}}
+\end{center}
+\begin{center}
+Spring 2019
+\end{center}
+%\date{September 26, 2018}
+
+\begin{center}
+\rule{6in}{0.4pt}
+\begin{minipage}[t]{.75\textwidth}
+\begin{tabular}{llcccll}
+\textbf{Instructor:} & Ningyi Zheng && &  & \textbf{Time:} & F 14:00 -- 17:00 \\
+\textbf{Email:} &  \href{ningyi.Zheng@berkeley.edu}{ningyi.Zheng@berkeley.edu} & & & & \textbf{Place:} & 4105 Dwinelle Hall
+\end{tabular}
+\end{minipage}
+\rule{6in}{0.4pt}
+\end{center}
+\vspace{.5cm}
+\setlength{\unitlength}{1in}
+\renewcommand{\arraystretch}{2}
+
+\vskip.15in
+\noindent\textbf{Office Hours:} After class, or by appointment, or post your questions on piazza
+
+\vskip.15in
+\noindent\textbf{Main References:} %\footnotemark
+This is a list of various interesting and useful books that will be touched during the course. Those books are not required but recommended.
+\begin{itemize}
+
+\item Gisslen, Wayne. {\textit{Professional Baking}}, Hoboken, 6th edition. 2000.
+\item Figona, Paula. {\textit{How Baking Works}}, Cambridge University Press, 2005.
+
+\end{itemize} 
+
+% \footnotetext{Downloadable ebook versions are available on AeLP.}
+
+\vskip.15in
+\noindent\textbf{Objectives:}  
+\begin{itemize}
+\item Identify and explain baking terms, ingredients, equipment and tools.\\
+\item Employ safe food handling practices using contemporary guidelines.
+\end{itemize} 
+\vskip.15in
+\noindent\textbf{Skills:}
+\begin{itemize}
+\item {Scale and measure ingredients.}
+\item {Prepare yeast dough, quick breads, pies, cookies, cakes, icing, pate choux, and savory baking.}
+\item {Produce baked products using commercial ingredients and equipment.}
+\end{itemize} 
+
+
+\vspace*{.15in}
+
+\noindent \textbf{Course Outline:}
+\begin{center} 
+\begin{minipage}{5in}
+\begin{flushleft}
+%Chapter 1 \dotfill ~$\approx$ 3 days \\
+{\color{darkgreen}{\Rectangle}} This course has been developed to provide first year culinary students with knowledge and skills necessary to produce quality baked goods. This is a course designed to teach basic baking skills.
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\vspace*{.15in}
+\noindent\textbf{Grading Policy:} Attendances (30\%),  Group Project 1 (20\%), Group Project 2 (20\%), Final project (30\%). %Four Projects (40\% = 4 * 10\%)
+
+\vskip.15in
+\noindent\textbf{Important Dates:}
+\begin{center} \begin{minipage}{3.8in}
+\begin{flushleft}
+Project \#1      \dotfill February 16, 2019 \\
+Project \#2      \dotfill March 15, 2019  \\
+%Project Deadline \dotfill ~Month Day \\
+Final project      \dotfill May 6, 2019  \\
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\vskip.15in
+\noindent\textbf{Course Policy:}  
+\begin{itemize}
+\item Please arrive on time. I will do row-call before every class 
+
+\end{itemize}
+
+\vskip.15in
+\noindent\textbf{Class Policy:}  
+\begin{itemize}
+\item Regular attendance is essential and expected.
+\end{itemize}
+
+\vskip.15in
+\noindent\textbf{Academic Honesty:}   Lack of knowledge of the academic honesty policy is not a reasonable explanation for a violation.
+
+\newpage
+
+% Course Outline
+\textbf {\large Tentative Course Outline}:
+
+\begin{table}[h!]
+\normalsize % The size of the table text can be changed depending on content. Remove if desired.
+\begin{tabular}{ | c | c | }
+\hline
+\textbf{Week} & \textbf{Content} \\
+\hline
+Week 1 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Introduction/Course outline
+\item Safety/Sanitation
+\item Scaling/Measuring
+\item Equipment/Tools
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 2 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Learn how chocolate is made
+	\item Profile chocolate in tasting, smelling, appearance, etc.
+	\item How to work with chocolate and learn basic garnishes
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 3 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Learn  Muffin, Creaming methods
+	\item Concentration this week on Muffin/Creaming Methods
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 4 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Learn how Biscuit Method works for different applications.
+	\item Understanding of different types of pie/sweet tart dough and uses
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 5 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Stirred vs. Baked Custard and the differences
+	\item Learn the uses for these basic products in applications of other pastry and desserts
+		\item \textbf {First project due}
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 6 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Difference between dough in taste for savory vs. sweet
+	\item Handling, rolling, shaping of dough
+	\item Using the right dough for the right filling
+    \item Finishes for pies
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 7 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item \textbf {Spring week}
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 8 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Types of cookies
+    \item Mixing methods
+    \item Storing different cookie dough
+
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 9 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item We will tour Whole Foods at 6th
+	\item Look and discuss all the departments and new items never seen before
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 10 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Yeast-Fresh vs. Dried, how does it work
+    \item Procedures for mixing yeast dough
+    \item Storing breads/dough for future uses
+    \item \textbf {Second Project Due}
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 11 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Learning the differences between Puff/Croissant/Danish dough
+    \item What is the best applications/uses for these item
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 12 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Pate a Choux, Puff Pastry, Fillo
+    \item Learn the different applications for each
+    \item Talk about Meringues-American, Swiss, Italian
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 13 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item \textbf {RRR week}
+	\item Review different types of ingredients used for savory baking
+    \item Look at trends for baking ideas in the industry.
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 14 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Final Week!
+	\item \textbf{Final project Due} 
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+\end{tabular} 
+\end{table}
+
+
+
+%%%%%% THE END 
+\end{document} 
+
+
+
