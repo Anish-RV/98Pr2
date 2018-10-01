@@ -1,6 +1,8 @@
 # 98Pr2
-Repository for INfo98 Project 2
+Repository for INFO98 Project 2
+
 Four branches for each member of our group
+
 Master: Anish |
 dlvh: David Lyu |
 linda+Ophelia : created and managed by Linda (Ningyi) only |
